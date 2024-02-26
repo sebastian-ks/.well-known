@@ -1,7 +1,16 @@
 {
     "@context": [
         "https://www.w3.org/ns/did/v1",
-        "https://w3id.org/security/suites/jws-2020/v1"
+        "https://w3id.org/security/bbs/v1"
     ],
-    "id": "did:web:sebastian-ks.github.io"
+    "id": "did:web:sebastian-ks.github.io",
+    "verficationMethod":[
+        {
+            "@context": "https://w3id.org/security/multikey/v1",
+            "id": "did:web:sebastian-ks.github.io#key-0",
+            "type": "Multikey",
+            "controller": "did:web:sebastian-ks.github.io",
+            "publicKeyMultibase": "zUC7FW3iCZqAYr6KrwTAHKtKqkHn4jGywoKMSgo4gqB9ZBem3MUDmKGCANuFnktqLAKUHaj85n4ckxVCmTWYj2wqasKfrtKrKhuRNdmZ8X82ZoXfzqzX3Lf43J6AQeC9JMY8kF5"
+        }
+    ]
 }
